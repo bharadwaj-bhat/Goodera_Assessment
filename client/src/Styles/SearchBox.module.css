@@ -1,0 +1,62 @@
+.Container {
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  height: 100px;
+  margin-top: 85px;
+  background-color: #fff;
+  box-shadow: 0px 15px 10px -15px rgb(144, 144, 144);
+  font-family: popins;
+}
+.searchBoxCon {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+  position: relative;
+  padding-top: 25px;
+  font-size: 2rem;
+}
+.searchBoxCon input {
+  height: 40px;
+  outline: none;
+  border: none;
+  margin-left: 40px;
+}
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+input ::-ms-input-placeholder {
+  font-size: 2rem;
+}
+
+.btn button {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  height: 50px;
+  top: 35%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #f07987;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.jobListCont {
+  border-radius: 20px;
+  align-items: center;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0px 20px 20px 20px;
+}

@@ -1,9 +1,0 @@
-body {
-  box-sizing: border-box;
-  font-family: Poppins;
-}
-
-.heroContainer {
-  height: 364px;
-  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
-}

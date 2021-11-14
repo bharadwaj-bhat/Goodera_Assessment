@@ -1,0 +1,19 @@
+body {
+  box-sizing: border-box;
+  font-family: Poppins;
+  background-color: rgb(234, 234, 234);
+}
+.App {
+}
+
+.heroContainer {
+  height: 364px;
+  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
+}
+.jobListContainer {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
